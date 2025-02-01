@@ -1,0 +1,148 @@
+/* Genel Stil */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #43B581;
+}
+
+a {
+    color: #43B581;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img.itch.zone/aW1nLzE4ODk4MjU1LmdpZg==/original/B2eiCA.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.download-btn {
+    background-color: #43B581;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #369c6d;
+    text-decoration: none;
+}
+
+/* Content Section */
+.content-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+.description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.key-features {
+    margin-bottom: 50px;
+}
+
+.key-features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.key-features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.key-features li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.key-features li::before {
+    content: "•";
+    color: #43B581;
+    position: absolute;
+    left: 0;
+}
+
+/* Image Gallery */
+.image-gallery {
+    margin-bottom: 50px;
+}
+
+.image-gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #888888;
+}
